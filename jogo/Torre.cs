@@ -1,6 +1,6 @@
 using tabuleiro;
 
-namespace pecas
+namespace jogo
 {
 	class Torre : Peca
 	{
