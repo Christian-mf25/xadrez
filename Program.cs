@@ -9,9 +9,7 @@ namespace xadrez
 		{
 			try
 			{
-
 				PartidaDeXadrez partida = new PartidaDeXadrez();
-
 				while (!partida.terminada)
 				{
 					try
@@ -42,7 +40,8 @@ namespace xadrez
 						Console.ReadLine();
 					}
 				}
-
+				Console.Clear();
+				Tela.imprimirPartida(partida);
 
 			}
 			catch (TabuleiroException e)
